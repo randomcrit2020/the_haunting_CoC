@@ -1,0 +1,86 @@
+% !TEX program = xelatex
+\documentclass[oneside,letterpaper,14pt]{memoir} 
+\usepackage{graphicx} % Required for inserting images
+\usepackage{fontspec} % For custom fonts with XeLaTeX/LuaLaTeX
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{pdfpages}
+\pageletter
+\usepackage{geometry}
+\usepackage[spanish]{babel}
+
+\geometry{
+  left=1.0in,
+  right=1.0in,
+  top=1in,
+  bottom=1in
+}
+
+\chapterstyle{section}
+
+% Load your custom fonts
+\setmainfont{ArnoPro-Regular.ttf}[
+  Path = ./fonts/,
+  BoldFont = ArnoPro-Bold.ttf,
+  ItalicFont = ArnoPro-Italic.ttf,
+  BoldItalicFont = ArnoPro-BoldItalic.ttf
+]
+
+\newfontfamily\teutonic[Path=./fonts/]{Teutonic.ttf}
+
+% Set chapter and section fonts
+\setsecheadstyle{\teutonic\Large\bfseries}
+\setsubsecheadstyle{\teutonic\large\bfseries}
+\setsubsubsecheadstyle{\teutonic\normalsize\bfseries}
+
+% Set chapter style
+\renewcommand{\chaptitlefont}{\teutonic\Huge\bfseries}
+\renewcommand{\chapnumfont}{\teutonic\Huge\bfseries}
+
+\title{The Haunting}
+\author{Edgar M. Miranda}
+\date{\today}
+
+% Title formatting
+\pretitle{\begin{center}\teutonic\Huge\bfseries}
+\posttitle{\end{center}}
+\preauthor{\begin{center}\Large}
+\postauthor{\end{center}}
+\predate{\begin{center}\large}
+\postdate{\end{center}}
+
+\begin{document}
+\maketitle
+
+\frontmatter
+% \chapter{Dedication}
+% \chapter{Copyright}
+% \chapter{Acknowledgements}
+
+\tableofcontents
+% \listoffigures
+% \listoftables
+
+% \part{The first part}
+
+\mainmatter
+
+% Handouts
+\input{./handouts/handout1.tex}
+\input{./handouts/handout2.tex}
+\input{./handouts/handout3.tex}
+\input{./handouts/handout4.tex}
+\input{./handouts/handout5.tex}
+\input{./handouts/handout6.tex}
+\input{./handouts/handout7.tex}
+\input{./handouts/handout8.tex}
+\input{./handouts/handout9.tex}
+
+\input{./locations/location1.tex}
+\input{./locations/location2.tex}
+\input{./locations/location3.tex}
+\input{./locations/location4.tex}
+\input{./locations/location5.tex}
+% \input{./locations/location6.tex}
+
+\end{document}

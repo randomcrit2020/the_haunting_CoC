@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1835 Boston Globe Clippings</title>
+    <style>
+    @font-face {
+    font-family: 'OldNewspaperTypes'; /* The name you will use to refer to this font */
+    src: url('../fonts/OldNewspaperTypes.ttf') format('truetype'); /* The location and format */
+    }
+
+    @font-face {
+    font-family: 'DawningofaNewDay-Regular'; /* The name you will use to refer to this font */
+    src: url('../fonts/DawningofaNewDay-Regular.ttf') format('truetype'); /* The location and format */
+    }
+
+    div {
+        border-style: dashed;
+        max-width: 400px;
+        margin: auto;
+        text-align: justify;
+        padding: 10px;
+        padding-top: 0px; 
+    }
+
+    .newsH1 {
+        font-family: "OldNewspaperTypes", serif;
+        font-size: 24px;
+        line-height: 1.0;
+        text-align: center;
+    }
+    .news {
+        font-family: "OldNewspaperTypes", serif;
+        font-size: 24px;
+        line-height: 1.0;
+        /* max-width: 400px; */
+
+    }
+    
+    .FirstCharacter {
+        font-size: 38px;
+    }
+
+    /* --- Styles for Printing --- */
+    @media print {
+        @page {
+            size: letter;
+            margin: 0; /* Set page margin to 0 to have full control */
+        }
+
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex; /* Use Flexbox for centering */
+            align-items: center; /* Vertical centering */
+            justify-content: center; /* Horizontal centering */
+        }
+
+        /* The container for your content */
+        div {
+            width: 2in; /* Set the width to exactly 2 inches */
+            max-width: 2in; /* Ensure max-width doesn't interfere */
+            border-style: dashed; /* A solid border for the printed version */
+            border-width: 2px;
+            padding: 10px; /* Add some internal padding */
+            margin: 0; /* Reset margin */
+        }
+
+        /* Font sizes suitable for print */
+        .newsH1 {
+            font-size: 14pt;
+        }
+
+        .news {
+            font-size: 10pt;
+        }
+
+        .FirstCharacter {
+            font-size: 14pt;
+        }
+    }
+
+
+</style>
+</head>
+<body>
+
+<div>
+
+<p class="newsH1"><strong>AVISO.</strong></p>
+
+<p class="news">
+<span class="FirstCharacter">Y</span>o, Walter Corbitt, Caballero, hago saber
+el traslado de mi morada y despacho al número 39 de la Avenida Webster, en la
+recién erigida Casa Harrington, magnífica edificación del señor Edward
+Harrington, afamado mercader. </p><p class="news">Hago votos asimismo por la pronta
+convalecencia del señor Harrington de su actual dolencia.</p>
+<p class="news">Espero seguir contando con vuestra estimada confianza en mi
+nuevo domicilio.</p>
+<p class="news">Con el debido respeto, Walter Corbitt, Caballero<br>
+Boston, a 18 de diciembre del año de Nuestro Señor de 1835
+</p>
+
+</div>
+
+</body>
+</html>
