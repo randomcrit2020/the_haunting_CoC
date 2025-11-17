@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1835 Boston Globe Clippings</title>
+    <style>
+    @font-face {
+    font-family: 'OldNewspaperTypes'; /* The name you will use to refer to this font */
+    src: url('../fonts/OldNewspaperTypes.ttf') format('truetype'); /* The location and format */
+    }
+
+    @font-face {
+    font-family: 'DawningofaNewDay-Regular'; /* The name you will use to refer to this font */
+    src: url('../fonts/DawningofaNewDay-Regular.ttf') format('truetype'); /* The location and format */
+    }
+
+    div {
+        border-style: dashed;
+        max-width: 400px;
+        margin: auto;
+        text-align: justify;
+        padding: 10px;
+        padding-top: 0px; 
+    }
+
+    .newsH1 {
+        font-family: "OldNewspaperTypes", serif;
+        font-size: 24px;
+        line-height: 1.0;
+        text-align: center;
+    }
+    .news {
+        font-family: "OldNewspaperTypes", serif;
+        font-size: 24px;
+        line-height: 1.0;
+        /* max-width: 400px; */
+
+    }
+    
+    .FirstCharacter {
+        font-size: 38px;
+    }
+
+    /* --- Styles for Printing --- */
+    @media print {
+        @page {
+            size: letter;
+            margin: 0; /* Set page margin to 0 to have full control */
+        }
+
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex; /* Use Flexbox for centering */
+            align-items: center; /* Vertical centering */
+            justify-content: center; /* Horizontal centering */
+        }
+
+        /* The container for your content */
+        div {
+            width: 2in; /* Set the width to exactly 2 inches */
+            max-width: 2in; /* Ensure max-width doesn't interfere */
+            border-style: dashed; /* A solid border for the printed version */
+            border-width: 2px;
+            padding: 10px; /* Add some internal padding */
+            margin: 0; /* Reset margin */
+        }
+
+        /* Font sizes suitable for print */
+        .newsH1 {
+            font-size: 14pt;
+        }
+
+        .news {
+            font-size: 10pt;
+        }
+
+        .FirstCharacter {
+            font-size: 14pt;
+        }
+    }
+
+
+</style>
+</head>
+<body>
+
+<div>
+
+<p class="newsH1"><strong>La polémica rodea el fallecimiento y los planes de
+entierro de Walter Corbitt</strong></p>
+
+<p class="news">
+  
+Walter Corbitt, Caballero, un prominente abogado de Boston, falleció en su hogar,
+"La Casa Corbitt", el 25 de junio de 1866. Tras su muerte, los vecinos han
+presentado una demanda para impedir su entierro en el sótano de la casa, según
+lo solicitado presuntamente en su testamento. Alegando métodos de entierro no
+convencionales y preocupaciones de salud pública, los vecinos buscan una orden
+judicial contra este inusual funeral.
+
+El caso, considerado una extensión de disputas pasadas entre el Sr. Corbitt y
+sus vecinos, ha generado una atención significativa. Se espera que el tribunal
+aborde el asunto con prontitud debido a su urgencia.
+
+</p>
+
+</div>
+
+</body>
+</html>
