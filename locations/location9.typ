@@ -9,8 +9,7 @@ más nuevas y arrogantes que la flanquean.
 
 La fachada gris verdosa mira hacia la calle con una quietud que incomoda. En la
 parte trasera, un jardín descuidado se ahoga bajo maleza espesa, y un emparrado
-medio derrumbado apunta al abandono progresivo. Al contemplar la casa, puedes
-evitar notar cómo parece replegarse sobre sí misma, deslizándose hacia las
+medio derrumbado apunta al abandono progresivo. Al contemplar la casa, puedes evitar notar cómo parece replegarse sobre sí misma, deslizándose hacia las
 sombras como algo que prefiere no ser visto. Las ventanas, ocultas tras
 cortinas pesadas, parecen aferrarse a sus secretos con una fuerza casi física,
 como si temieran que, al ceder un poco, algo muy antiguo y muy oscuro pudiera
